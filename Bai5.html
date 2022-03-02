@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <title>Bài 5</title>
+</head>
+<style>
+    #wrapper {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    #header {
+        background-color: burlywood;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    #sidebar-left {
+        flex: 20%;
+        background-color: beige;
+    }
+
+    ul#main-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul#main-menu li a {
+        text-decoration: none;
+        display: block;
+        padding: 15px 20px;
+        font-size: 25px;
+        color: cadetblue;
+        font-weight: 600;
+    }
+    ul#main-menu li:hover a{
+        color:tomato;
+    }
+
+    #content {
+        flex: 55%;
+        background-color: bisque;
+        padding: 20px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    #sidebar-right {
+        flex: 25%;
+        background-color: bisque;
+
+    }
+img{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+    #footer {
+        background-color: burlywood;
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Jake's Coffee Shop</h1>
+        </div>
+        <!-- end header -->
+        <div id="section" class="d-flex">
+            <div id="sidebar-left">
+                <ul id="main-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Mucic</a></li>
+                    <li><a href="">Jobs</a></li>
+                </ul>
+            </div>
+            <!-- end content -->
+            <div id="content">
+                <p>Come in and experience ...</p>
+                <ul>
+                    <li>Specially Coffee and Tea</li>
+                    <li>Freshly made sandwiches</li>
+                    <li>Bagels, Muflins, and Organic Snacks</li>
+                    <li>Music and Poetry Readings</li>
+                    <li>Open mic nights</li>
+                    <li>...</li>
+                </ul>
+                <p>
+                    23 Pine Road
+                </p>
+                <p>
+                    Nottingham, NG1 5YU
+                </p>
+                <p>
+                    01159324567
+                </p>
+            </div>
+            <!-- end content -->
+            <div id="sidebar-right">
+                <a href=""><img src="coffee.PNG" alt=""></a>
+            </div>
+            <!-- end sidebar-right -->
+        </div>
+        <!-- end section -->
+        <div id="footer" class="text-center">
+            <p style="margin: 0; padding-top: 30px;">Copyright C 2011 Jake's Coffee House</p>
+            <a href="" style="color: rgb(107, 196, 231); padding-bottom: 20px; display: block; color: brown;">jake@jcoffee.com</a>
+        </div>
+        <!-- end footer -->
+    </div>
+</body>
+
+</html>

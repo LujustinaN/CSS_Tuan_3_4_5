@@ -1,0 +1,18 @@
+.text-center {
+  text-align: center;
+}
+.none-margin{
+    margin: none;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-bold{
+  font-weight: 600;
+}
+.d-flex{
+  display: flex;
+}
+.pd-right-50{
+  padding-right: 50px;
+}

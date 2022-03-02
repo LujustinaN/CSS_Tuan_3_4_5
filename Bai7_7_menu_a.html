@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7 Câu 7 menu a</title>
+</head>
+<style>
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    #main-menu {
+        display: flex;
+        list-style: none;
+    }
+
+    #main-menu li a {
+        display: block;
+        color: white;
+        font-size: 20px;
+        padding: 10px 20px;
+        background-color: green;
+        text-decoration: none;
+    }
+
+    #main-menu li .sub-menu {
+        list-style: none;
+        display: none;
+    }
+    #main-menu li:hover .sub-menu{
+        display: block;
+    }
+    #main-menu li .sub-menu li a {
+        padding-left: 10px;
+    }
+
+    #main-menu li:hover>a {
+        color: orange;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul id="main-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Products
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="">Engineering</a></li>
+                        <li><a href="">Telecom</a></li>
+                        <li><a href="">Energy</a></li>
+                        <li><a href="">Finance</a></li>
+                        <li><a href="">Consultancy</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</body>
+
+</html>

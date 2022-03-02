@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiệu ứng xoay đối tượng</title>
+</head>
+<style>
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .box {
+        margin-top: 200px;
+        max-width: 400px;
+        min-height: 50px;
+        background-color: azure;
+        border-top: 2px double red;
+        border-left: 2px double red;
+        border-right: 2px dotted red;
+        border-bottom: 2px dotted red;
+        border-radius: 10px;
+        opacity: 0.8;
+    }
+    .box:hover{
+        background-color:burlywood;
+        transform: rotate(60deg);
+        transition: all 2s linear;
+        opacity: 0.8;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae animi error non neque aspernatur. Fuga eos
+                voluptates doloremque ea temporibus quidem dolor laborum officiis cum nulla ipsam quasi laudantium,
+                repellendus ipsa perferendis maxime accusantium accusamus repellat. Officia, sint cum consectetur nisi
+                numquam consequuntur atque rerum doloribus commodi natus soluta dolores reprehenderit ipsam assumenda
+                repellat! Explicabo officiis beatae est sint quaerat.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <title>Bài 3 CSS</title>
+</head>
+<style>
+    #wrapper {
+        max-width: 1140px;
+        height: auto;
+        margin: 0 auto;
+        background-color: black;
+        display: flex;
+    }
+
+    #sidebar {
+        flex: 40%;
+    }
+
+    #content {
+        flex: 60%;
+        margin: 0px 40px;
+    }
+
+    .box {
+        padding: 5px 10px 5px 20px;
+        background-color: orangered;
+        border: 10px solid yellow;
+        margin: 20px;
+        color: white;
+        font-size: 18px;
+    }
+
+    img {
+        display: inline-block;
+        margin: 20px 10px;
+
+    }
+
+    p {
+        color: white;
+        font-size: 25px;
+    }
+
+    p.small {
+        line-height: 0.7;
+        font-size: 50px;
+        margin-bottom: 100px;
+
+    }
+
+    .products {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <div id="sidebar">
+            <div class="box">
+                <h1>Books</h1>
+            </div>
+            <div class="box">
+                <h1>Clothes</h1>
+            </div>
+            <div class="box">
+                <h1>Electonics</h1>
+            </div>
+            <div class="box">
+                <h1>Furniture</h1>
+            </div>
+            <div class="box">
+                <h1>Jewelry</h1>
+            </div>
+            <div class="box">
+                <h1>Music and Videos</h1>
+            </div>
+            <div class="box">
+                <h1>Sporting Goods</h1>
+            </div>
+        </div>
+        <!-- end sidebar -->
+        <div id="content">
+            <p class="small text-center">
+                THE<br>
+                STUFF<br>
+                SHOP<br>
+            </p>
+            <p class="text-center">The stuff shop is your online home for the buying, selling, and trading of used
+                merchandise and unique collectibles</p>
+            <p class="text-center none-margin" style="font-size: 18px;">Click a link on the left to browse the store.
+            </p>
+            <div class="products">
+                <img src="pic-1.PNG" alt="">
+                <img src="pic-2.PNG" alt="">
+                <img src="pic-3.PNG" alt="">
+            </div>
+        </div>
+        <!-- end content -->
+    </div>
+    <!-- end wrapper -->
+</body>
+
+</html>

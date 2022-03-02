@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <title>Bài 6</title>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #wrapper {
+        max-width: 1140px;
+        margin: 0 auto;
+        border: 10px solid rgb(104, 204, 207);
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 60px;
+        color: rgb(104, 204, 207);
+    }
+
+    #main-menu {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    nav {
+        border-top: 2px solid gray;
+        border-bottom: 2px solid gray;
+
+    }
+
+    ul#main-menu li:first-child a {
+        padding-left: 0;
+    }
+
+    ul#main-menu li a {
+        color: rgb(34, 145, 108);
+        font-size: 22px;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: block;
+        text-decoration: none;
+        padding: 0px 20px;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        color: rgb(121, 121, 121);
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #sidebar{
+        flex: 60%;
+    }
+    #content{
+        flex: 40%;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div id="logo">
+                <a href="">example <br> cafe</a>
+            </div>
+            <nav>
+                <ul id="main-menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Recipes</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Home</h1>
+            <div id="section" class="d-flex">
+                <div id="sidebar">
+                    <img src="pic-4.PNG" alt="">
+                </div>
+                <!-- end sidebar -->
+                <div id="content">
+                    <h1>A community cafe serving home cooked, locally sourced, organic food</h1>
+                    <p>With stunning views of the ocean. Example Cafe offers the perfect enviroment to unwind and
+                        recharge
+                        the
+                        batteries.</p>
+                    <p>Our menu offers a wide range of breakfasts, brunches and lunches, including a range of vegetarian
+                        options.
+                    </p>
+                    <p>Whether you sip on a fresh, hot coffee or a cooling smoothie, you never need to feel rushed.
+                        Relax
+                        with
+                        friends or just watch the world go by.</p>
+                    <h1>This weekend's special brunch</h1>
+                </div>
+                <!-- end content -->
+            </div>
+            <!-- end section -->
+            <p>This weekend, our season of special brunches continues with scrambled egg on an English muffin. Not for
+                the
+                faint-hearted, the secrect to these eggs is that they are made with half cream and cooked in butter,
+                with no
+                more than four eggs in the pan at a time.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

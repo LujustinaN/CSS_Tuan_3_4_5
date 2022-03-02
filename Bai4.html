@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <title>Bài 4 CSS</title>
+</head>
+<style>
+    #wrapper {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    #main-menu {
+        display: flex;
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    #main-menu li a {
+        display: block;
+        font-size: 18px;
+        padding: 5px;
+    }
+    
+    p.text-italic{
+        line-height: 0.8px;
+    }
+</style>
+
+<body>
+    <div id="wrapper">
+        <h1 style="font-size: 40px;">Jake's coffee shop</h1>
+        <ul id="main-menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Menu</a></li>
+            <li><a href="">Music</a></li>
+            <li><a href="">Jobs</a></li>
+        </ul>
+        <p>Come in and experience ...</p>
+        <img src="coffee.PNG" alt="">
+        <ul>
+            <li>Specially Coffee and Tea</li>
+            <li>Freshly made sandwiches</li>
+            <li>Bagels, Muflins, and Organic Snacks</li>
+            <li>Music and Poetry Readings</li>
+            <li>Open mic nights</li>
+            <li>...</li>
+        </ul>
+        <p class="text-italic">
+            23 Pine Road
+        </p>
+        <p class="text-italic">
+            Nottingham, NG1 5YU
+        </p>
+        <p class="text-italic">
+            01159324567
+        </p>
+        <p>Copyright C 2011 Jake's Coffee House</p>
+        <a href="" style="color: rgb(107, 196, 231);">jake@jcoffee.com</a>
+    </div>
+</body>
+
+</html>
